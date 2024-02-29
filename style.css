@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    border: solid 4px gray;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+}
+
+.slider{
+    display: flex;
+    gap : 10px;
+}
+
+.row{
+    flex-grow: 1;
+    display: flex;
+}
